@@ -1,0 +1,9 @@
+
+package coopple;
+
+message Player {
+    required string name = 1;
+    required uint32 type = 2;
+    required uint32 ticks = 3 [default = 9];
+};
+
